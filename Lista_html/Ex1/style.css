@@ -4,7 +4,7 @@ body{
     color: rgb(255, 255, 255);
 }
 
-.h2-1{
+h2{
     text-align: left;
     color: red;
 }
@@ -34,9 +34,35 @@ body{
 
 .gabiru{
 
-    width: 50%;
-    margin-top: -10px; 
+    width: 60%;
+    margin-top: -100px; 
     margin-left: 20px;
     margin-right: 0px;
     border: 5px solid  rgb(207, 27, 27); 
+}
+
+.div2{
+    align-content: left;
+    margin-top: 100px; 
+    margin-left: 50px;
+    margin-right: 450px;
+    text-align: justify;
+    background-color: #555353; /* Cor de fundo desejada */
+    border: 2px solid rgb(194, 67, 67); /* Cor da borda desejada */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+    width: 600px; 
+    height: 200px;
+}
+
+.div3{
+    align-content: left;
+    margin-top: 50px; 
+    margin-left: 50px;
+    margin-right: 450px;
+    text-align: justify;
+    background-color: #555353; /* Cor de fundo desejada */
+    border: 2px solid rgb(194, 67, 67); /* Cor da borda desejada */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+    width: 600px; 
+    height: 200px;
 }
