@@ -1,0 +1,25 @@
+.title{
+    display: flex;
+    justify-content: center;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+tfoot img {
+    display: block; /* Impede que a imagem fique alinhada com o texto */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+.table2{
+    float: left;/* Exibe os contêineres das tabelas em linha */
+      width: calc(50% - 20px); /* Define a largura de cada tabela (50% da largura total da tela, menos a margem entre elas) */
+      margin: 0 10px; /* Adiciona margem entre as tabelas */
+      box-sizing: border-box;
+}
