@@ -1,0 +1,64 @@
+body{
+    display: flexbox;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(img/GettyImages-549626823-af5991c1e2904116a9f10631444728fa.jpg);
+    
+    
+}
+
+h1{
+    color: pink;
+}
+ul{
+    color: darksalmon;
+    list-style-type: disc;
+    padding: 2%;
+}
+
+h2{
+    color: aquamarine ;
+}
+h3{
+    color: aliceblue;
+}
+
+#jooj{
+    display: block;
+    margin: auto 0;
+    align-content: center;
+    text-align: justify;
+    background-color: #7e96b1; /* Cor de fundo desejada */
+    border: 2px solid rgb(218, 215, 215); /* Cor da borda desejada */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+    width: auto;
+}
+#cabeca{
+    display: block;
+    margin: 10 750;
+    align-content: center;
+    text-align: justify;
+    background-color: #7e96b1; /* Cor de fundo desejada */
+    border: 2px solid rgb(218, 215, 215); /* Cor da borda desejada */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+    width: 600px; 
+    height: 500px;
+}
+
+#girafales{
+    display: block;
+    margin: -555 0;
+    align-content: center;
+    text-align: justify;
+    background-color: #7e96b1; /* Cor de fundo desejada */
+    border: 2px solid rgb(218, 215, 215); /* Cor da borda desejada */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+    width: 700px; 
+    height: 500px;
+}
+
+li img{
+    width: 25%;
+}
+li{
+    color: white;
+}
