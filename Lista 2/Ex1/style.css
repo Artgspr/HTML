@@ -1,0 +1,68 @@
+
+.sec1 img{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border: 3px solid black;
+}
+
+section h3{
+    background-color: azure;
+}
+
+
+article{
+    background-color: cadetblue;
+    padding-left: 10px;
+}
+
+aside{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: white;
+}
+
+.sobre{
+    padding: 10px;
+}
+
+.formacao{
+    background-color: deeppink;
+}
+
+.formacao ul {
+    padding: -10px;
+}
+.formacao h1 {
+    padding-left: 10px;
+}
+
+.habilidade{
+    background-color: chartreuse;
+}
+
+
+body{ /*principal*/
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+@media (min-width: 768px) { /* tela cheia */
+    body{
+        display: grid;
+        grid-template-columns: 20% 80%;
+
+    }
+}
+
+@media (max-width: 768px) { /* layout mobile */
+    body{
+        display: grid;
+        min-height: 50vh;
+        grid-template-rows: 40% 60%;
+    }
+
+}
