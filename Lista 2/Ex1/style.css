@@ -7,9 +7,8 @@
 }
 
 section h3{
-    background-color: azure;
+    background-color: blanchedalmond;
 }
-
 
 article{
     background-color: cadetblue;
@@ -26,8 +25,9 @@ aside{
     padding: 10px;
 }
 
-.formacao{
-    background-color: deeppink;
+.sobre h1{
+    color: cadetblue;
+    background-color: blanchedalmond;
 }
 
 .formacao ul {
@@ -35,10 +35,14 @@ aside{
 }
 .formacao h1 {
     padding-left: 10px;
+    color: cadetblue;
+    background-color: blanchedalmond;
 }
 
-.habilidade{
-    background-color: chartreuse;
+.habilidade h1{
+    padding-left: 10px;
+    color: cadetblue;
+    background-color: blanchedalmond;
 }
 
 
@@ -62,7 +66,7 @@ body{ /*principal*/
     body{
         display: grid;
         min-height: 50vh;
-        grid-template-rows: 40% 60%;
+        grid-template-rows: 1fr 1fr 1fr 1fr
     }
 
 }
