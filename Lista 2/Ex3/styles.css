@@ -69,12 +69,27 @@ aside{
   grid-template-rows: 1fr 1fr 1fr;
 }
 
-.playlist{ 
-}
-
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: burlywood;
 }
 
-  
+@media (max-width: 768px){
+  body{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+  }
+  header{
+    display: flex;
+  }
+  main{
+    display: flex;
+    grid-row: 2;
+  }
+  article{
+    grid-row: 2;
+  }
+}
